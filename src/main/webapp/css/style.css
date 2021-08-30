@@ -149,3 +149,7 @@ table#report_list .report_action {
     color: #721c24;
     background-color: #f8d7da;
 }
+h1 {
+    font-size: 24px;
+    display: inline;
+}
