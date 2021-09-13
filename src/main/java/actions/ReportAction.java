@@ -94,7 +94,9 @@ public class ReportAction extends ActionBase {
                     getRequestParam(AttributeConst.REP_TITLE),
                     getRequestParam(AttributeConst.REP_CONTENT),
                     null,
-                    null);
+                    null,
+                    getRequestParam(AttributeConst.REP_TIME_IN),
+                    getRequestParam(AttributeConst.REP_TIME_OUT));
 
             //日報情報登録
             List<String> errors = service.create(rv);
